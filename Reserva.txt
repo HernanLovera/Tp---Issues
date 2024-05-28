@@ -1,3 +1,0 @@
-4.	Historia de usuario: Como usuario quiero poder reservar un libro en un determinado periodo para poder utilizarlo en ese periodo solicitado. 
--	criterios de aceptación: 
-o	El libro debe tener alguna copia de este a disposición. 
