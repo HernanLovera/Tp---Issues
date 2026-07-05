@@ -1,0 +1,49 @@
+class Persona {
+    var nombre : String;
+    var edad : Int;
+    
+    func saludar() : Void {
+        print("Hola, soy " + nombre);
+    }
+    
+    func cumpleanios() : Void {
+        edad = edad + 1;
+    }
+}
+
+class Empleado extends Persona {
+    var sueldo : Float;
+    var cargo : String;
+    
+    func calcularBono() : Float {
+        return sueldo * 0.10;
+    }
+}
+
+main {
+    Persona p;
+    p.nombre = "Ana";
+    p.edad = 25;
+    p.saludar();
+    
+    Empleado e;
+    e.nombre = "Carlos";
+    e.edad = 30;
+    e.sueldo = 2000.50;
+    e.cargo = "Desarrollador";
+    
+    Int x = 10;
+    Int y = 20;
+    
+    if (x < y) {
+        print("x es menor que y");
+    } else {
+        print("x es mayor o igual a y");
+    }
+    
+    Int i = 0;
+    while (i < 5) {
+        print(i);
+        i = i + 1;
+    }
+}
